@@ -1,0 +1,19 @@
+#write a python program 
+#1)to display a menu of food items(List)
+#2)create a Tuple of prices with respect to food items list
+#3)read the input from the user for ordering the food including Quantity
+#if it exists in the menu --confirm order
+#if not print a message--
+#4)While billing, read phone no.,feedback,read tip amount
+#5)add 18% gst to the bill & print the bill if bill>0
+#FoodItems = [1,2,3,4]
+#Price=(100,150,175,200)
+n = int(input("Order your food with Quantity :"))
+List=['Veg Biriyani','Veg Fried Rice','Paneer Biriyani','Dahi Tadka','Paneer Butter Masala']
+Tuple=('380','270','450','170','290')
+i=1
+while(i<=n):
+    item=input("Enter the item you wish to eat:")
+    index=List.index(item) 
+    print(f"{item}--{Tuple[index]}")
+    i+=1

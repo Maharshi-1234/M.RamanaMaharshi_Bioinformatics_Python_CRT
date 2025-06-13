@@ -1,0 +1,6 @@
+#write a python program to create a tuple of programming languages with length 15 and find the maximum element,minimum element and print the sorted tuple,print the reversed tuple
+tuple = ('a','b','c','d','e','f','g','h','i','j')
+print(max(tuple))
+print(min(tuple))
+print(sorted(tuple))
+print(tuple[::-1])

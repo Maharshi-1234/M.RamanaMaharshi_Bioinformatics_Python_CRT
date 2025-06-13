@@ -1,0 +1,7 @@
+encode(),decode()
+len,min,max,count
+startswith(),endswith()
+find(),rfind()
+isalnum(),isalpha(),isdigit(),isnumeric(),isdecimal()
+lsstrip(),rsstrip(),strip(),isspace(),center()
+islower(),isupper(),lower(),upper(),swapcase()

@@ -1,0 +1,12 @@
+#write a program to display the list of groceries items 
+#1- To display the list of groceries items in a sorted way
+#2- To take the input from the user and add items to the cart
+#3- To view the cart items
+#4- To Update the Quantity or the item present in the cart 
+#5- Generate a bill including item names,item quantity,price and if the final bill amount is >1000,
+#the user will get 10% Discount and if the user purchases any item >10kg's reduce the amount
+# of 1 kg from that particular items price.
+#if the user purchases any particular items add BUY ONE - GET ONE offer to it
+#add 25% GST To the overall Bill and Print the Bill.
+n=int(input("Enter the Grocery items you want to add :"))
+List = ['Rice','Wheat','Shampoo_Packets','Soft_Drinks','']
