@@ -1,0 +1,120 @@
+Object Oriented Programming System(OOP'S)
+
+Methods : Inheritance,Polymorphism,Encapsulation,Abstraction 
+Entity  : Anything which has the existence or anything which exists.
+Object/Instance: It is a Real world physical Entity.
+Class   : A Logical Entity or Blueprint or Plan to create Multiple Objects
+          Multiple Objects created using same class is known as Identical Objects or Similar Objects.
+
+ClassName Rules:
+1)The Class name can be any valid Identifier
+2)It can't be a Python Reserved word 
+3)A Valid class keyword starts with a letter,followed by any number of letter,numbers or underscores.
+4)A class name generally starts with Capital Letter.
+
+How to Create a class:
+syntax--> class ClassName:
+class Mobile:
+object_name = class_name()
+object_name = class_name(arg)
+
+.pyc = c --> class
+
+Types of Constructors : Parameterized and Non-Parameterized
+->Python supports special Type of Method called Constructor for initialising the Instance variable of a class
+->A Constructor is only called once at the time of creating an Instance
+->If two Instances are created for a class,the Constructor will be called once for each Instance.
+->A class Constructor,if defined is called whenever a program creates an Object of that class.
+1)Parameterized Constructor: These are ones which have parameters(other than self) defined in the __init__ method's parameter list.
+-->This type of Constructor can take arguments from the user.
+2)Non-Parameterized Constructor:Also known as Default Constructor
+-->The __init__ method includes a single parameter self
+-->No other parameters are present in __init__'s parameter list
+-->Consequently, this Constructor takes "no arguments" while creating a new object
+-->Non-Parameterized Constructors assign Default values to the attributes of the class.
+
+The __init__() Method:
+This is a Magic Method(dunder method) which we can use to initialise variables for classes(objects).
+Every class has __init__ and this is executed when we instantiate the class.
+You can Also use this method to do anything you want to do when the object is being created.
+We do not call this method explicitly.
+
+self:Object reference Holder
+#self is a Default variable that contains the memory address of the current object.
+#self is used to refer all the Instance variable and method
+#when we create a object of a class, the object_name contains the memory location of the object
+#This memory location is internally passed to self, as self holds the memory address of the object so we can access 
+variable and method of the object
+#self is the first argument to any object method because the first argument is always the object reference
+This is Automatic, whether you call it self or not
+we can use any other variable name instead of self variable.
+
+                               DataMembers--->1)Variables -----a)Global Variable---- I)Class Variables(Static) and II)Instance Variables(Non-static)
+                                                               b)Local Variable
+                                              2)Constants
+OBJECT : 2 Categories  ------>  1)State of an Object : Represents the properties or attributes of an Object
+                       ------>  2)Behaviour of an Object : The Functionality or work done by the object
+                               Functions/Methods
+
+Types of Methods: 1)Instance Methods(Accessor Methods, Mutator Methods) [Instance = Object]
+                  2)Class Methods
+                  3)Static Methods
+
+        Accessor Method/Getter Method : Used to access the data or read the data of the variables     
+         Setter Method/Mutator Method : Used to access or read or modify the data of the variable.
+                                        This method modify the data in the variable
+                                        Ex: def set value(self):
+                                            def set result(self):
+                                            def set id(self):  
+
+Destructors: The __del__ method is called Destructor.It is called when an object is about to be deleted.
+Syntax ->
+class Dog:
+        def __del__(self):
+                print(f"{self.name} is being destroyed.")
+Class Methods  : Which Act upon the class variables or Static variable of the class.
+                By Default,the first parameter of the class method is cls which refers to the class itself.
+Static Methods : Used when some processing is related to the class but does not need the class or its Instances to perform any work
+                We use this method when we want to pass some values from outside and perform some action in the method.
+                Decorator @staticmethod need to write above the staticmethod.
+
+Global Variable : A variable which is declared within the class but outside of a 
+                  Method,Function,Constructor or Block is known as "GLOBAL VARIABLE".
+                  Global Variable has global scope where you can access the variable throughout the Program.
+                  It Has a Global Access.
+                  TYPES ---> 1)Static
+                             2)Non-Static
+Local Variable :  A Variable which is declared within the class but inside of a 
+                  Method,Function,Constructor or Block is known as "LOCAL VARIABLE".
+                  Local Variable has Limited scope where you can access the variable within the given scope(either function or method or Constructor)
+                  It Has a Limited Access.
+
+Functions / Methods :
+        Method Overloading: Within the same class having Multiple methods with same name but different parameters is called Method Overloading
+        Method Overwriting: Within the same class having Multiple Constructors with same name but different signature is called Method Overwriting.
+                                                        "INHERITANCE"
+Inheritance : Process of Acquiring the properties of one class into another class.
+Superclass:The class which gives the properties to another class is called Superclass/Baseclass/Parentclass.
+Subclass : The Class which Acquires the properties from another class is known as Subclass/Derived Class.
+Types of Inheritance  : Single,Multiple,Heirarchial,MultiLevel,Hybrid.
+1)Single Level : Vehicle(Superclass)----->Car(Subclass)
+2)Multi Level: Vehicle(super class)--->Bike(Subclass)---->SuperBike(Subclass)
+        Intermediate class : Class which acts as Subclass and Superclass
+3)Heirarchial class : Multiple subclasses inherit from a single superclass.
+4)Multiple class : A subclass inherits from more than one superclass.
+5)Hybrid class : classes are derived from more than one base class, creating a complex inheritance structure.
+
+                                                POLYMORPHISM 
+Performing a Single Task in multiple ways is called as "Polymorphism"
+2 Types : 1)Compile time(Overloading)
+          2)Run Time(Overriding)
+Duck Typing : -> In python we follow a principle if it walks like a duck and talks like a duck it
+                must be a duck, which means python doesn't care about which class of object it is. If
+                it is an object and requires behaviour is present for the object then it will work.
+                The type of object is distinguished only at runtime this is called as DUCK TYPING.
+
+Encapsulation : It is a Process of Wrapping up the states and Behaviours of an Entity for Data security
+                and accessing it using Data Handler methods(Getter and Setter)
+Inheritance : Acquiring properties from one class to another class 
+Abstraction : It is a process of hiding the implementation and providing the Functionalities to the user
+Interface : It is a Intermediate between Service and Consumer
