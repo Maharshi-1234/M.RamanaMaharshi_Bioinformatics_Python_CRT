@@ -1,0 +1,5 @@
+#Syntax
+def Function_name(parameters):
+    if base_condition:
+        return result
+    return Function_name(modified_parameters)
