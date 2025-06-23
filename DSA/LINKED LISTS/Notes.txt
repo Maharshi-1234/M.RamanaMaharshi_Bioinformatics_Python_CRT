@@ -1,0 +1,34 @@
+                                        DATA STRUCTURES AND ALGORITHMS(DSA)
+Data: It is a raw fact which describes the attributes or properties of an Entity.
+Structure: It is a Structured Format of arranging Data.
+Data Structures: The process of Organising the Data is called Data Structures.
+CRUD - Creation/Insertion
+       Read/Retrieve
+       Update/Modify
+       Deletion/Remove
+Algorithms : A process or set of instructions to perform a task.
+
+Big-O-Notation(O)- worst case scenario
+Omega Notation(Ω) - Best Case scenario
+Theta Notation(θ) - Average Complexity of an Algorithm.
+
+Linked Lists: 1)Singly-Linked Lists:Contains only one node which points out subsequent pointer.
+              2)Doubly-Linked Lists:Each node points not only to next pointer but also to the previous pointer.
+              3)Circular-Linked Lists: No Tail Node.
+              4)Circular Doubly-Linked Lists: Combination of Both Doubly Linked Lists and Circular List.
+
+Operations on Linked List:
+1)Traversing:✔ Follow the pointers
+             ✔ Display the contents of the nodes as they were traversed.
+             ✔ Stop when the next pointer points to None.
+
+2)Printing :  Traversing the list from begining of the list(head) until we reach the None Pointer
+
+3)Insertion : ✔ Before the Head of the begining
+              ✔ After the Tail
+              ✔ Middle of the List(Random Location)
+              
+4)Deletion : ✔ Deleting the First Node
+             ✔ Deleting the an Intermediate Node
+             ✔ Deleting the Last Node
+       

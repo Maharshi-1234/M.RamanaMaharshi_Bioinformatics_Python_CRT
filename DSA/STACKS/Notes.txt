@@ -1,0 +1,9 @@
+Stacks are simple data structures allow us to store and retrieve data sequantially.
+It is an Abstract Data type(ADT).
+Follows LIFO.
+Operations on Stack:
+Insertion - .push()
+Deletion - .pop()
+Look at top item - Peek
+Is_empty - Check if stack is empty.
+Complexity of a stack 

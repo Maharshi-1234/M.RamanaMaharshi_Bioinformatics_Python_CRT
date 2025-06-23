@@ -1,0 +1,16 @@
+Queues are type of Data structures which follows Sequential Data Reperesentation.
+Follows FIFO(First-in-First-Out)
+Add Element only from the BackSide.
+Operations : Enqueue(insert Element from last), Dequeue(remove Element from front) , Peek Front(look at front item) and Peek Rear(look ar rear item)
+Applications : 1)Task Scheduling in OS
+               2)Print Job Management
+               3)BFS Algorithms
+               4)Customer service systems
+               5)Data Buffering
+
+Difference between Stacks vs Queues :
+                STACK(LIFO)                                         QUEUES(FIFO)
+        * Add/Removefrom same end(loop)                    * Add at rear, remove from First
+        * Like a stack of plates                           * Like a line of People
+        * Operations : push,pop,Peek                       * Operations : Enqueue,Dequeue,Peek
+        * Use: Undo operations,function calls              * Use: Task Scheduling, Printing
