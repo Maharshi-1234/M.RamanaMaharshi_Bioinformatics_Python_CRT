@@ -1,0 +1,4 @@
+Comprehension contains very compact code usually a single statement that perform a task.
+1)list Comprehension
+2)Set Comprehension
+3)Dictionary Comprehension
