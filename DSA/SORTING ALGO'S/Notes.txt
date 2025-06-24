@@ -1,1 +1,7 @@
-Time Complexity : Bubble sort --> O(n^2) Worst Case
+Time Complexity : Bubble Sort -->  O(n^2) Worst Case
+                  Merge Sort  -->  O(n log n)
+                  Quick Sort  -->  O(n log n) Best case 
+                                   O(n ^2) Worst Case
+                  InsertionSort -->O(n ^2) Space = O(1)
+                  SelectionSort -->O(n  ^2) Best and Worst
+                  
