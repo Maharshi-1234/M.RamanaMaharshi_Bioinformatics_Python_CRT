@@ -1,0 +1,37 @@
+#Introduction
+
+A graph is a pair  G = (V, E), where  V  is a set whose elements are called vertices, and \( E \) is a 
+set of two sets of vertices, whose elements are called edges.
+
+The vertices \( x \) and \( y \) of an edge \(\{x, y\}\) are called the endpoints of the edge. 
+The edge is said to join \( x \) and \( y \) and to be incident on \( x \) and \( y \). 
+A vertex may not belong to any edge.
+
+For example: Suppose there is a road network in a country, where we have many cities, and roads are 
+connecting these cities. There could be some cities that are not connected by some other cities like an island.
+
+Graph Operations : Add vertex, 
+                   Add Edge, 
+                   Remove vertex, 
+                   Remove Edge, 
+                   Display Graph,
+                   Traversal,
+                   View Edges,
+                   Get Neighbour Nodes
+
+Nodes = vertices and connection between them are called edges.
+Degree = Number of edges that are incident to it.
+Path = A Collection of edges through which we can reach from one node to another node.
+A Graph is said to be connected if there is a path between every pair of vertices.
+The min.number of edges in a connected graph is N-1 (N=Number of Nodes)
+In a complete graph, There are NC2, number of edges = (N*(N-1))/2 edges where n = number of nodes.
+
+DFS(Depth First Search):Take input and print graph
+It is a graph traversal algorithm that starts from a source node and explores as far 
+as possible along each branch before backtracking.
+It uses a stack (either explicitly or via recursion) and goes deep into one path before trying others."
+
+BFS(Breadth First Search):
+It is a graph traversal algorithm that starts from a source node and explores 
+all its neighbors first before moving to the next level neighbors.
+It uses a queue to keep track of nodes to visit next, ensuring it explores nodes in a level-by-level manner.
