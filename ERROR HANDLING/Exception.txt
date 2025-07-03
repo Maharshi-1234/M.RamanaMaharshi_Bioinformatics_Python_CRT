@@ -1,0 +1,15 @@
+User Defined Exception:
+A Programmer can create his own exception, called user-Defined exceptions or custom exception.
+--> Creating Exception class using Exception class as a Base class
+--> Raising Exception
+--> Handling Exception
+
+Creating Exception:
+We can create our own exception by Creating a subclass to built-in Exception class
+class MyException(Exception):
+        Pass
+class MyException(Exception):
+        def __init__(self, arg):
+    self.msg = arg 
+
+""" Exception Handling is not completely Possible in Python """

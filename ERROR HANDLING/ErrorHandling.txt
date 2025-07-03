@@ -1,0 +1,17 @@
+Errors:
+1)Compilation Error
+2)Logical Error
+3)Run-Time Error
+
+Exception: An Exception is an runtime error which can be handled by the programmer.
+Abnormal termination of the Progam is also called 
+All Exceptions are represented as classes in python.
+
+Types of Exceptions:
+1)Built-in Exception - Exceptions which are already predefined.(available in Python Language.)
+                        The Base class for all Built-in Exceptions is BaseException class.
+2)User-Defined Exception - A programmer can create his own Exceptions, called User-Defined Exceptions.
+
+Types of Errors:
+1)Standard Errors: Arithmatic,Assertion,Syntax,Type,Runtime,import,Name,Logical,Semantic,
+2)Warnings : DeprecationWarning,runtimeWarning,importwarning,resource Warnings,type Warnings,
