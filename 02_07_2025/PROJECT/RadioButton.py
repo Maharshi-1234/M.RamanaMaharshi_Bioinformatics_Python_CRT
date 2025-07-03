@@ -1,0 +1,15 @@
+from tkinter import *
+root = Tk()
+root.title("Radiobutton Example")
+root.geometry("250x200")
+selected_option = StringVar()
+selected_option.set("Python") 
+Radiobutton(root, text="Python", variable=selected_option, value="Python").pack(anchor=W)
+Radiobutton(root, text="Java", variable=selected_option, value="Java").pack(anchor=W)
+Radiobutton(root, text="C++", variable=selected_option, value="C++").pack(anchor=W)
+Radiobutton(root, text="SQL", variable=selected_option, value="SQL").pack(anchor=W)
+
+label = Label(root, text=selected_option)
+label.pack(pady=10)
+Button(root, text="Show Selection", command=lambda: label.config(text=f"Selected: {selected_option.get()}")).pack()
+root.mainloop()

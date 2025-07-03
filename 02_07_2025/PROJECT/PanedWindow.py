@@ -1,0 +1,11 @@
+from tkinter import *
+root = Tk()
+root.title("PanedWindow Example")
+root.geometry("150x150")
+pane = PanedWindow()
+pane.pack(fill=BOTH, expand=1)
+left = Label(pane, text="Left Pane", bg="lightblue")
+pane.add(left)
+right = Label(pane, text="Right Pane", bg="lightgreen")
+pane.add(right)
+root.mainloop()
